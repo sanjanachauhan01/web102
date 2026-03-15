@@ -1,0 +1,45 @@
+.card {
+  width: 560px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  background: #fff;
+  box-shadow: 6px 6px 0 #e0e0e0, 10px 10px 0 #ebebeb;
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.2s;
+  gap: 1rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card.flipped {
+  background: #f0f4ff;
+}
+
+.card:hover {
+  box-shadow: 12px 12px 0 #e0e0e0, 12px 12px 0 #ebebeb;
+}
+
+.questionText {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #222;
+  margin: 0;
+}
+
+.answerText {
+  font-size: 1.6rem;
+  color: #3355cc;
+  margin: 0;
+}
+
+.flip-hint {
+  font-size: 0.75rem;
+  color: #aaa;
+  margin: 0;
+}

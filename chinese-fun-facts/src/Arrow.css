@@ -1,0 +1,14 @@
+.arrow {
+  background: rgba(0, 0, 0, 0.6);
+  border: 2px solid #fff;
+  border-radius: 6px;
+  padding: 0.4rem 0.5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #fff;
+  transition: background 0.2s;
+}
+
+.arrow:hover {
+  background: rgba(0, 0, 0, 0.85);
+}
