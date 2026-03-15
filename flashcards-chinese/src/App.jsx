@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Card from './Card'
 import Arrow from './Arrow'
+import chinaBackground from './assets/china-background.jpg'
 
 const cards = [
   { question: "Hello", answer: "nǐ hǎo / 你好" },
@@ -32,10 +33,10 @@ function App() {
   }
 
   return (
-    <>
+    <div className="app" style={{ backgroundImage: `url(${chinaBackground})` }}>
       <div className="header">
         <h1>Chinese Flashcards</h1>
-        <p>Level up with 10 basic chinese phrases, front side englisha and back side chinese. Click to reveal answer, and use arrows to move onto next card.</p>
+        <p>Level up with 10 basic chinese phrases, front side has the english meaning and back side has the chinese meaning. Click to reveal answer, and use arrows to move onto next card.</p>
       </div>
       <div className="card-container">
         <Card key={currentCard} question={cards[currentCard].question} answer={cards[currentCard].answer} />
@@ -45,7 +46,7 @@ function App() {
         <span className="card-counter">{currentCard + 1} / {cards.length}</span>
         <Arrow direction="right" onClick={handleRight} />
       </div>
-    </>
+    </div>
   )
 }
 
