@@ -1,0 +1,15 @@
+.arrow {
+  background: none;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  padding: 0.4rem 0.9rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #444;
+  transition: background 0.2s, color 0.2s;
+}
+
+.arrow:hover {
+  background: #444;
+  color: #fff;
+}

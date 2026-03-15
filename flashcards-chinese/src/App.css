@@ -1,0 +1,21 @@
+.header {
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.arrow-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.card-counter {
+  color: #888;
+}
