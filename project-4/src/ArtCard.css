@@ -1,0 +1,62 @@
+.art-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  overflow: hidden;
+  max-width: 500px;
+  width: 100%;
+  margin-top: 1.5rem;
+}
+
+.art-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.art-info {
+  padding: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.art-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 0;
+  color: #1a1a1a;
+}
+
+.art-dated {
+  font-size: 0.85rem;
+  color: #888;
+  margin: 0;
+}
+
+.art-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.4rem;
+}
+
+.art-tag {
+  background: #f0f0f0;
+  border-radius: 20px;
+  padding: 0.3rem 0.8rem;
+  font-size: 0.85rem;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: background 0.2s, color 0.2s;
+}
+
+.art-tag:hover {
+  background: #ffe0e0;
+  border-color: #f66;
+}
+
+.art-tag.banned {
+  background: #f44;
+  color: #fff;
+}

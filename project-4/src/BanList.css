@@ -1,0 +1,56 @@
+.ban-list {
+  width: 240px;
+  background: #1a1a2e;
+  color: #fff;
+  padding: 1.5rem 1rem;
+  min-height: 100vh;
+  flex-shrink: 0;
+}
+
+.ban-list h2 {
+  margin: 0 0 0.4rem 0;
+  font-size: 1.1rem;
+}
+
+.ban-hint {
+  font-size: 0.75rem;
+  color: #aaa;
+  margin-bottom: 1rem;
+  line-height: 1.4;
+}
+
+.ban-empty {
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.ban-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.ban-item {
+  background: #f44;
+  border-radius: 6px;
+  padding: 0.4rem 0.7rem;
+  font-size: 0.85rem;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  transition: background 0.2s;
+}
+
+.ban-item:hover {
+  background: #c00;
+}
+
+.ban-type {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  opacity: 0.75;
+}
