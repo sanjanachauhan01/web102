@@ -1,0 +1,31 @@
+
+.header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.pokemon {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+.stats {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: blue;
+}
+
+.search-row {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin: 24px 0;
+}
+
+.search-bar, .type-filter {
+  height: 32px;
+}
+
