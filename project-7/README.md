@@ -1,10 +1,10 @@
-# Web Development Project 7 - *Name of App Here*
+# Web Development Project 7 - *Pokemon Team Builder*
 
-Submitted by: **Your Name Here**
+Submitted by: **Sanjana**
 
-This web app: **insert description**
+This web app: **Instead of the crewmates, I chose to make a pokemon team builder using the same API from last project, PokeAPI**
 
-Time spent: **X** hours spent in total
+Time spent: **3** hours spent in total
 
 ## Required Features
 
