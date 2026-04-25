@@ -4,7 +4,7 @@ Submitted by: **Sanjana Chauhan**
 
 This web app: **A web app that allows users to post their playlist curations, and users can interact with other user posts and discuss in the comments their listening experience**
 
-Time spent: **3** hours spent in total
+Time spent: **5** hours spent in total
 
 ## Required Features
 
