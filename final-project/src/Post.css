@@ -1,0 +1,119 @@
+.post-card {
+  background: white;
+  border-radius: 18px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.07);
+  max-width: 500px;
+  margin: 1.25rem auto;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.18s, box-shadow 0.18s;
+}
+
+.post-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 32px rgba(255, 60, 172, 0.15);
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem 1.25rem;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.post-avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #FF3CAC, #FF6B35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+  flex-shrink: 0;
+}
+
+.post-header-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.username {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #1a1a2e;
+}
+
+.post-time {
+  font-size: 0.78rem;
+  color: #aaa;
+}
+
+.post-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 1rem 1.25rem 0.3rem;
+  color: #1a1a2e;
+}
+
+.post-body {
+  padding: 0 1.25rem 0.75rem;
+}
+
+.description {
+  color: #555;
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+
+.playlist-link {
+  display: inline-block;
+  margin-top: 0.6rem;
+  color: #38BDF8;
+  font-size: 0.88rem;
+  font-weight: 500;
+  text-decoration: none;
+  word-break: break-all;
+}
+
+.playlist-link:hover {
+  text-decoration: underline;
+}
+
+.post-actions {
+  padding: 0.65rem 1.25rem;
+  border-top: 1px solid #f5f5f5;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.like-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.25rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  color: #aaa;
+  transition: color 0.15s, transform 0.15s;
+}
+
+.like-btn:hover {
+  color: #FF3CAC;
+  transform: scale(1.15);
+}
+
+
+.like-count {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: inherit;
+}

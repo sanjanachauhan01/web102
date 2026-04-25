@@ -1,0 +1,56 @@
+.make-post-form {
+  background: white;
+  border-radius: 18px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.07);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.make-post-form label {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: #FF3CAC;
+  margin-top: 0.75rem;
+}
+
+.make-post-form label:first-child {
+  margin-top: 0;
+}
+
+.make-post-form input,
+.make-post-form textarea {
+  border: 2px solid #f0f0f0;
+  border-radius: 10px;
+  padding: 0.65rem 0.9rem;
+  font-size: 0.95rem;
+  font-family: inherit;
+  color: #1a1a2e;
+  outline: none;
+  transition: border-color 0.2s;
+  resize: vertical;
+}
+
+.make-post-form input:focus,
+.make-post-form textarea:focus {
+  border-color: #38BDF8;
+}
+
+.make-post-form button[type='submit'] {
+  margin-top: 1.25rem;
+  padding: 0.75rem;
+  background: linear-gradient(90deg, #FF3CAC, #FF6B35);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: opacity 0.2s, transform 0.15s;
+}
+
+.make-post-form button[type='submit']:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
